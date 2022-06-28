@@ -4,28 +4,20 @@
 //a = 2 b = 10 -> max = 10
 //a = -9 b = -3 -> max = -3
 
-int a = -9;
-int b = -3;
-int max = a;
-if (a>max) max = a;
-if (b>max) max = b;
+namespace HomeWork
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {      
+            int a = -9;
+            int b = -3;
+            int max = a;
+            if (a>max) max = a;
+            if (b>max) max = b;
 
-Console.Write("max = ");
-Console.WriteLine(max);
-
-
-
-// namespace HomeWork
-// {
-//     class Program
-//     {
-//         int a = 5;
-//         int b = 7;
-
-//         if (a>b)
-//         {
-
-//         }
-//         Console.WriteLine(max)
-//     }
-// }
+            Console.Write("max = ");
+            Console.WriteLine(max);
+        }        
+    }            
+}
