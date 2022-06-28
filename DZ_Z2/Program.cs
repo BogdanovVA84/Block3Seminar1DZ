@@ -10,14 +10,20 @@ namespace HomeWork
     {
         static void Main(string[] args)
         {      
-            int a = -9;
-            int b = -3;
-            int max = a;
-            if (a>max) max = a;
+            int a = 2;
+            int b = 10;
+            int max = b;
+            int min = a;
+            if (a>max) max = a;            
             if (b>max) max = b;
+            if (a<max) min = a;
+            if (b<max) min = b;
+            
 
             Console.Write("max = ");
             Console.WriteLine(max);
+            Console.Write("min = ");
+            Console.WriteLine(min);
         }        
     }            
 }
